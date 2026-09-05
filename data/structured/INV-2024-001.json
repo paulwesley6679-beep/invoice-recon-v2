@@ -60,5 +60,12 @@
                                      }
                                  ]
                    },
-    "report":  null
+    "report":  {
+                   "summary":  "Invoice INV-2024-001 matches its PO PO-1001 and receipt RCPT-2024-001, but is flagged as a duplicate invoice.",
+                   "status":  "needs_review",
+                   "recommended_action":  "Void duplicate invoice, keep the original",
+                   "notes":  [
+                                 "Duplicate pair: INV-2024-001 / INV-2024-004"
+                             ]
+               }
 }

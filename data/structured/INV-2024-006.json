@@ -60,5 +60,12 @@
                                      }
                                  ]
                    },
-    "report":  null
+    "report":  {
+                   "summary":  "Invoice INV-2024-006 has an amount mismatch with its PO PO-1004 (invoice 8600.00 vs PO 7900.00).",
+                   "status":  "needs_review",
+                   "recommended_action":  "Request vendor credit or corrected invoice",
+                   "notes":  [
+
+                             ]
+               }
 }

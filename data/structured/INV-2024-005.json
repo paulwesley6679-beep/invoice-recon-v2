@@ -66,5 +66,12 @@
                                      }
                                  ]
                    },
-    "report":  null
+    "report":  {
+                   "summary":  "Invoice INV-2024-005 has no PO number and could not be matched to any purchase order or receipt.",
+                   "status":  "blocked",
+                   "recommended_action":  "Hold payment until data is resolved",
+                   "notes":  [
+                                 "No PO reference found in invoices.csv"
+                             ]
+               }
 }

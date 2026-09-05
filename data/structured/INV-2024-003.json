@@ -55,5 +55,12 @@
 
                                  ]
                    },
-    "report":  null
+    "report":  {
+                   "summary":  "Invoice INV-2024-003 matches its PO PO-1003 and receipt RCPT-2024-003 with no exceptions.",
+                   "status":  "reconciled",
+                   "recommended_action":  "Approve for payment",
+                   "notes":  [
+
+                             ]
+               }
 }
