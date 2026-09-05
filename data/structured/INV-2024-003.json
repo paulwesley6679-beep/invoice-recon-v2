@@ -49,6 +49,11 @@
 
                                ]
                  },
-    "exceptions":  null,
+    "exceptions":  {
+                       "has_exceptions":  false,
+                       "items":  [
+
+                                 ]
+                   },
     "report":  null
 }

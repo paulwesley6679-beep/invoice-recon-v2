@@ -49,6 +49,16 @@
 
                                ]
                  },
-    "exceptions":  null,
+    "exceptions":  {
+                       "has_exceptions":  true,
+                       "items":  [
+                                     {
+                                         "type":  "amount_mismatch",
+                                         "severity":  "warning",
+                                         "details":  "Invoice amount 8600.00 does not match PO-1004 amount 7900.00 (delta 700.00)",
+                                         "suggested_action":  "Request vendor credit or corrected invoice"
+                                     }
+                                 ]
+                   },
     "report":  null
 }

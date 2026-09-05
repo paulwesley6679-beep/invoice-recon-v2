@@ -49,6 +49,22 @@
                                    "PO number missing, skipped PO lookup"
                                ]
                  },
-    "exceptions":  null,
+    "exceptions":  {
+                       "has_exceptions":  true,
+                       "items":  [
+                                     {
+                                         "type":  "missing_po",
+                                         "severity":  "critical",
+                                         "details":  "Invoice INV-2024-005 has no PO number",
+                                         "suggested_action":  "Obtain PO number from vendor or purchasing team"
+                                     },
+                                     {
+                                         "type":  "missing_receipt",
+                                         "severity":  "warning",
+                                         "details":  "No receipt found (invoice INV-2024-005 has no PO number to match)",
+                                         "suggested_action":  "Confirm goods were received and obtain receipt"
+                                     }
+                                 ]
+                   },
     "report":  null
 }

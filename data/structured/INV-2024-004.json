@@ -49,6 +49,16 @@
 
                                ]
                  },
-    "exceptions":  null,
+    "exceptions":  {
+                       "has_exceptions":  true,
+                       "items":  [
+                                     {
+                                         "type":  "duplicate_invoice",
+                                         "severity":  "warning",
+                                         "details":  "Duplicate of INV-2024-001: same PO number, vendor, amount, and invoice date",
+                                         "suggested_action":  "Void duplicate invoice, keep the original"
+                                     }
+                                 ]
+                   },
     "report":  null
 }
