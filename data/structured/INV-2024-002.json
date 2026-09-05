@@ -28,7 +28,27 @@
                                                                ]
                                                  }
                            },
-    "matching":  null,
+    "matching":  {
+                     "po_match":  {
+                                      "po_number":  "PO-1002",
+                                      "found":  true,
+                                      "amount_match":  true,
+                                      "amount_invoice":  8400.50,
+                                      "amount_po":  8400.50,
+                                      "delta":  0.00
+                                  },
+                     "receipt_match":  {
+                                           "receipt_id":  "RCPT-2024-002",
+                                           "found":  true,
+                                           "quantity_match":  null,
+                                           "quantity_invoice":  null,
+                                           "quantity_receipt":  8
+                                       },
+                     "overall_status":  "matched",
+                     "notes":  [
+
+                               ]
+                 },
     "exceptions":  null,
     "report":  null
 }

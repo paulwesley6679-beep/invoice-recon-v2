@@ -28,7 +28,27 @@
                                                                ]
                                                  }
                            },
-    "matching":  null,
+    "matching":  {
+                     "po_match":  {
+                                      "po_number":  null,
+                                      "found":  false,
+                                      "amount_match":  false,
+                                      "amount_invoice":  9750.00,
+                                      "amount_po":  null,
+                                      "delta":  null
+                                  },
+                     "receipt_match":  {
+                                           "receipt_id":  null,
+                                           "found":  false,
+                                           "quantity_match":  null,
+                                           "quantity_invoice":  null,
+                                           "quantity_receipt":  null
+                                       },
+                     "overall_status":  "unmatched",
+                     "notes":  [
+                                   "PO number missing, skipped PO lookup"
+                               ]
+                 },
     "exceptions":  null,
     "report":  null
 }
