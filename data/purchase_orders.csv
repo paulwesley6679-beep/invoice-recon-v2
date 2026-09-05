@@ -1,0 +1,5 @@
+po_number,vendor,order_date,total_amount,currency,status
+PO-1001,Acme Supplies,2024-01-02,12500.00,USD,approved
+PO-1002,Globex Corp,2024-01-05,8400.50,USD,approved
+PO-1003,Initech Ltd,2024-01-08,3200.00,USD,approved
+PO-1004,Globex Corp,2024-01-09,7900.00,USD,approved

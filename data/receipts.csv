@@ -1,0 +1,5 @@
+receipt_id,po_number,vendor,received_date,quantity,currency
+RCPT-2024-001,PO-1001,Acme Supplies,2024-01-11,10,USD
+RCPT-2024-002,PO-1002,Globex Corp,2024-01-13,8,USD
+RCPT-2024-003,PO-1003,Initech Ltd,2024-01-16,5,USD
+RCPT-2024-004,PO-1004,Globex Corp,2024-01-19,7,USD
